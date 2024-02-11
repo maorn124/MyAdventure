@@ -16,6 +16,8 @@
 		3986941B2B78277200E7E871 /* MyAdventureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3986941A2B78277200E7E871 /* MyAdventureTests.swift */; };
 		398694252B78277200E7E871 /* MyAdventureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398694242B78277200E7E871 /* MyAdventureUITests.swift */; };
 		398694272B78277200E7E871 /* MyAdventureUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398694262B78277200E7E871 /* MyAdventureUITestsLaunchTests.swift */; };
+		398694352B78313B00E7E871 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398694342B78313B00E7E871 /* Question.swift */; };
+		398694372B78315200E7E871 /* QuestionLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398694362B78315200E7E871 /* QuestionLogic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		398694202B78277200E7E871 /* MyAdventureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAdventureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		398694242B78277200E7E871 /* MyAdventureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAdventureUITests.swift; sourceTree = "<group>"; };
 		398694262B78277200E7E871 /* MyAdventureUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAdventureUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		398694342B78313B00E7E871 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		398694362B78315200E7E871 /* QuestionLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionLogic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +105,8 @@
 			children = (
 				398694032B78277000E7E871 /* AppDelegate.swift */,
 				398694052B78277000E7E871 /* SceneDelegate.swift */,
-				398694072B78277000E7E871 /* ViewController.swift */,
+				398694382B78315600E7E871 /* Model */,
+				398694332B78312100E7E871 /* View */,
 				398694092B78277000E7E871 /* Main.storyboard */,
 				3986940C2B78277200E7E871 /* Assets.xcassets */,
 				3986940E2B78277200E7E871 /* LaunchScreen.storyboard */,
@@ -125,6 +130,23 @@
 				398694262B78277200E7E871 /* MyAdventureUITestsLaunchTests.swift */,
 			);
 			path = MyAdventureUITests;
+			sourceTree = "<group>";
+		};
+		398694332B78312100E7E871 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				398694072B78277000E7E871 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		398694382B78315600E7E871 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				398694342B78313B00E7E871 /* Question.swift */,
+				398694362B78315200E7E871 /* QuestionLogic.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +281,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				398694082B78277000E7E871 /* ViewController.swift in Sources */,
+				398694352B78313B00E7E871 /* Question.swift in Sources */,
 				398694042B78277000E7E871 /* AppDelegate.swift in Sources */,
+				398694372B78315200E7E871 /* QuestionLogic.swift in Sources */,
 				398694062B78277000E7E871 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
